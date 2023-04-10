@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  display: grid;
+  min-width: 95vw;
+  min-height: 100vh;
+  grid-template-columns: auto;
+  grid-template-rows: 60px auto 60px;
+  grid-template-areas: "header" "main" "footer";
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*Navigation*/
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+
+.wrapper nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.wrapper nav Link {
+  text-decoration: none;
+}
+
+nav #toogle,
+nav label {
+  display: none;
+}
+
+@media (max-width: 70em) {
+  .wrapper nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .wrapper nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3rem 0;
+  }
+
+  .wrapper nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer;
+  }
+
+  .wrapper nav #toogle:checked ~ .menu {
+    height: 100%;
+  }
+}
