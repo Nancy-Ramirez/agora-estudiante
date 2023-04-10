@@ -25,10 +25,6 @@ body {
   grid-template-rows: 60px auto 60px;
   grid-template-areas: "header" "main" "footer";
 }
-h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
 
 /*Navigation*/
 .wrapper {
@@ -44,7 +40,6 @@ h1 {
   align-items: center;
   padding: 1rem 1.5rem;
   border-radius: 0.4rem;
-  color: white;
 }
 
 

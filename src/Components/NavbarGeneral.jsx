@@ -4,7 +4,7 @@ import logo from "../images/Logo.png";
 
 export const NavbarGeneral = () => {
   return (
-    <div className="bg-colo2 opacity-2 border-gray-200 mx-auto fixed w-full flex-wrap z-20 top-0">
+    <div className="bg-gray-300 text-black opacity-2 border-gray-200 mx-auto fixed w-full flex-wrap z-20 top-0">
       <div className="wrapper justify-between">
         <nav>
           <a href="/inicio" className="logo">
