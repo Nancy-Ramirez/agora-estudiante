@@ -17,13 +17,9 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: rgb(0, 0, 0);
   display: grid;
   min-width: 95vw;
   min-height: 100vh;
-  grid-template-columns: auto;
-  grid-template-rows: 60px auto 60px;
-  grid-template-areas: "header" "main" "footer";
 }
 
 /*Navigation*/

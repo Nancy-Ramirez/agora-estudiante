@@ -1,4 +1,5 @@
 import { NavbarGeneral } from "../NavbarGeneral";
+import imgInicio from "../../images/inicio.svg"
 
 export const InicioGeneral = () => {
   return (
@@ -10,9 +11,16 @@ export const InicioGeneral = () => {
             <img
               alt="ecommerce"
               class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="https://dummyimage.com/400x400"
+              src={imgInicio}
             />
-            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"></div>
+            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2 className="text-3xl">
+                <span className="text-green-500">M</span>{" "}
+                <span className="text-green-400">I</span>{" "}
+                <span className="text-green-300">D</span>{" "}
+                <span className="text-green-200">E</span> tus conocimientos
+              </h2>
+            </div>
           </div>
         </div>
       </section>
