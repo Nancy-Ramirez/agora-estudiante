@@ -1,9 +1,218 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat&display=swap');
-
-body{
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Merriweather+Sans:wght@300&family=Montserrat&display=swap");
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.containerTitle {
+  padding-top: 200px;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 150;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+.containerTitle .p2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  text-decoration: solid;
+  color: rgb(0, 0, 0);
+}
+
+
+
+/*Button 1*/
+.button1 {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #023535;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+}
+
+.button1::before,
+.button1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.button1::before {
+  left: -10px;
+  background: #015958;
+}
+
+.button1::after {
+  right: -10px;
+  background: #008f8c;
+}
+
+.button1:hover::before,
+.button1:hover::after {
+  width: 58%;
+}
+
+.button1:hover span {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.button1 span {
+  color: #000000;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+
+/*Sobre Nosotros*/
+.containerSN .wrapperr {
+    display: block;
+    top: 50%;
+    left:50%;
+  }
+  
+  .containerSN h1 a {
+    color: #000000;
+    font-size: 4em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  /*effect-underline*/
+  .containerSN a.effect-underline:after {
+      content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+  }
+  
+  .containerSN a.effect-underline:hover:after {
+    opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+
+  .containerAbout {
+  padding-top: 35px;
+  height: 100vh;
+  margin-bottom: -300px;
+}
+
+:root {
+  --color-1: #032424;
+  --color-2: #054140;
+  --color-3: #0b5a59;
+  --color-4: #09807e;
+  --color-5: #188a88;
   background-color: white;
+}
+
+ .containerAbout  .wrapperAbout {
+  min-height: 100%;
+  place-items: center;
+}
+
+ .containerAbout  h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 2.0vw;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color-1) 19%, 
+    transparent 19%,transparent 20%, 
+    var(--color-2) 20%, var(--color-2)  39%,
+    transparent 39%,transparent 40%, 
+    var(--color-3) 40%,var(--color-3) 59% ,
+    transparent 59%,transparent 60%, 
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-5) 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.1rem;
+  }
 }

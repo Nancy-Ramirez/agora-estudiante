@@ -4,9 +4,11 @@
 
 html {
   box-sizing: border-box;
-
 }
 
+#root{
+  background-color: white;
+}
 *,
 *::before,
 *::after {
@@ -18,9 +20,6 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  display: grid;
-  min-width: 95vw;
-  min-height: 100vh;
 }
 
 /*Navigation*/
@@ -28,6 +27,7 @@ body {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+  background-color: whitesmoke;
 }
 
 .wrapper nav {
