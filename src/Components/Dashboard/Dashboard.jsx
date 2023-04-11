@@ -81,7 +81,7 @@ export const Dashboard = () => {
                 </div>
             </div>
 
-            <section class="bg-gray-900 text-white">
+            <section class="bg-gray-400 text-white">
                 <div
                     class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
                 >
