@@ -6,22 +6,17 @@ import { Nosotros } from "../Inicio/nosotros";
 
 import { Dashboard } from "../Dashboard/Dashboard";
 
-
 export default function Router() {
-    return (
-      
-      <BrowserRouter>
-        <Routes>
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/*General */}
+        <Route path="/" element={<InicioGeneral />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/Materia" element={<Materias />} />
 
-
-          {/*General */}          
-          <Route path="/Materia" element={<Materias />} />
-          <Route path="/" element={<InicioGeneral/>} />     
-          <Route path="/Dashboard" element={<Dashboard/>} />     
-         
-
-        </Routes>
-      </BrowserRouter>
-    );
-  }
-  
+        <Route path="/Dashboard" element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
