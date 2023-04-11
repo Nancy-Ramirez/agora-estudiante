@@ -5,8 +5,8 @@ export const Dashboard = () => {
         <div>
             <NavbarEstudiante></NavbarEstudiante>
 
-            <header aria-label="Page Header" class="bg-gray-50">
-                <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 bg-gary-100">
+            <header aria-label="Page Header" class="bg-cyan-50">
+                <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 bg--100">
 
                     <div class="mt-8">
                         <h2 class="text-2xl font-bold text-gray-900 sm:text-3xl">
