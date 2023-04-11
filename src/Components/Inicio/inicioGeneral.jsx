@@ -39,6 +39,7 @@ export const InicioGeneral = () => {
         </div>
       </section>
 
+      {/*Sobre nosotros */}
       <section id="Nosotros" class="text-gray-600 body-font bg-gray-200 -mr-20">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
