@@ -1,5 +1,4 @@
 body {
-    color: #333;
     font-family: Arial, Helvetica, serif;
     font-weight: normal;
     margin: 0;
@@ -8,7 +7,6 @@ body {
   }
   
   h1 {
-    background: #333;
     color: #fff;
     text-align: center;
     margin: 0 0 5% 0;
