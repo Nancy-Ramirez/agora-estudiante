@@ -79,6 +79,8 @@ body {
   color: rgb(0, 0, 0);
 }
 
+
+
 /*Button 1*/
 .button1 {
   display: inline-block;
@@ -169,3 +171,46 @@ body {
       -webkit-transform: scale(1);
       transform: scale(1);
   }
+
+  .containerAbout {
+  padding-top: 35px;
+  height: 100vh;
+}
+
+:root {
+  --color-1: #032424;
+  --color-2: #054140;
+  --color-3: #0b5a59;
+  --color-4: #09807e;
+  --color-5: #188a88;
+}
+
+ .containerAbout  .wrapperAbout {
+  min-height: 100%;
+  place-items: center;
+}
+
+ .containerAbout  h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 2.0vw;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color-1) 19%, 
+    transparent 19%,transparent 20%, 
+    var(--color-2) 20%, var(--color-2)  39%,
+    transparent 39%,transparent 40%, 
+    var(--color-3) 40%,var(--color-3) 59% ,
+    transparent 59%,transparent 60%, 
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-5) 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.1rem;
+  }
+}

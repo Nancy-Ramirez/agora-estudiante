@@ -20,7 +20,7 @@ export const NavbarGeneral = () => {
                 <a href="/">Inicio</a>
               </li>
               <li className="pl-8">
-                <a href="/nosotros">Nosotros</a>
+                <a href="#Nosotros">Nosotros</a>
               </li>
               <li className="pl-8 flex wrapped">
                 <a href="/">Servicio</a>
