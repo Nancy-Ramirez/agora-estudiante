@@ -175,6 +175,7 @@ body {
   .containerAbout {
   padding-top: 35px;
   height: 100vh;
+  margin-bottom: -300px;
 }
 
 :root {
@@ -183,6 +184,7 @@ body {
   --color-3: #0b5a59;
   --color-4: #09807e;
   --color-5: #188a88;
+  background-color: white;
 }
 
  .containerAbout  .wrapperAbout {
