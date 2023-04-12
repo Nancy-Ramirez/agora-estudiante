@@ -75,11 +75,11 @@ export const InicioGeneral = () => {
 
       {/*Servicios*/}
 
-      <section class="text-gray-600 body-font">
+      <section id="Servicios" class="text-gray-600 body-font py-12">
         <div class="container px-5 py-7 mx-auto">
           <div class="flex flex-col text-center w-full">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              Master Cleanse Reliac Heirloom
+              Servicios
             </h1>
           </div>
           <div class="flex flex-wrap -m-4">
@@ -107,24 +107,8 @@ export const InicioGeneral = () => {
                   <p class="leading-relaxed text-base">
                     Agora ofrece una experiencia de aprendizaje interactivo que
                     permite a los estudiantes aprender de una manera divertida y
-                    atractiva. Los estudiantes pueden poner en práctica sus
-                    conocimientos a través de quiz y preguntas, y recibir
-                    feedback instantáneo.
+                    atractiva.
                   </p>
-                  <a class="mt-3 text-red-500 inline-flex items-center">
-                    Learn More
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
                 </div>
               </div>
             </div>
@@ -146,28 +130,15 @@ export const InicioGeneral = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                    The Catalyzer
+                    Personalización
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    La plataforma de Agora permite a los estudiantes trabajar a
+                    su propio ritmo, lo que les permite aprender a su manera y
+                    en su propio tiempo.
                   </p>
-                  <a class="mt-3 text-red-500 inline-flex items-center">
-                    Learn More
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
                 </div>
               </div>
             </div>
@@ -190,28 +161,14 @@ export const InicioGeneral = () => {
                     </svg>
                   </div>
                   <h2 class="text-gray-900 text-lg title-font font-medium">
-                    Neptune
+                    Eficiencia
                   </h2>
                 </div>
                 <div class="flex-grow">
                   <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    Agora ayuda a los profesores a ahorrar tiempo y a evaluar el
+                    desempeño de los estudiantes de manera efectiva.
                   </p>
-                  <a class="mt-3 text-red-500 inline-flex items-center">
-                    Learn More
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
                 </div>
               </div>
             </div>

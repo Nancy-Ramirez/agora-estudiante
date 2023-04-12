@@ -23,7 +23,7 @@ export const NavbarGeneral = () => {
                 <a href="#Nosotros">Nosotros</a>
               </li>
               <li className="pl-8 flex wrapped">
-                <a href="/">Servicio</a>
+                <a href="#Servicios">Servicio</a>
               </li>
               <li className="pl-8 flex wrapped">
                 <a href="/">Ingresar</a>
