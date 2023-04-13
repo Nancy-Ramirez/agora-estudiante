@@ -5,6 +5,7 @@ import { InicioGeneral } from "../Inicio/inicioGeneral";
 
 import { Dashboard } from "../Dashboard/Dashboard";
 import { Reseñas } from "../Reseñas/Reseñas";
+import { Perfil } from "../Perfil/Perfil";
 
 export default function Router() {
   return (
@@ -17,6 +18,7 @@ export default function Router() {
 
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Reseña" element={<Reseñas />} />
+        <Route path="/Perfil" element={<Perfil />} />
       </Routes>
     </BrowserRouter>
   );

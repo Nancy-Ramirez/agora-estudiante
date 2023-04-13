@@ -87,6 +87,52 @@ export const Dashboard = () => {
 
             </header>
 
+            <div className="grid- grid-cols-3 gap-2">
+                <div className="col-span-2 justify-rigth bg-cyan-100">
+                <h3 class="text-gray-600 text-sm font-semibold mb-4">Materias inscritas</h3>
+                <ul class="flex items-center justify-left space-x-2">
+
+                       
+                        <li class="flex flex-col items-center space-y-2 m-5">
+                            <a class="block p-1 rounded-full" href="#">
+                                <img class="w-16 rounded-full" src={quimica} />
+                            </a>
+                            <span class="text-xs text-gray-500">
+                                Química
+                            </span>
+                        </li>
+                        <li class="flex flex-col items-center space-y-2 m-5">
+                            <a class="block p-1 rounded-full" href="#">
+                                <img class="w-16 rounded-full" src={quimica} />
+                            </a>
+                            <span class="text-xs text-gray-500">
+                                Química
+                            </span>
+                        </li>
+                        <li class="flex flex-col items-center space-y-2 m-5">
+                            <a class="block p-1 rounded-full" href="#">
+                                <img class="w-16 rounded-full" src={biologia} />
+                            </a>
+                            <span class="text-xs text-gray-500">
+                                Biología
+                            </span>
+                        </li>
+                        <li class="flex flex-col items-center space-y-2 m-5">
+                            <a class="block p-1 rounded-full" href="#">
+                                <img class="w-16 rounded-full" src={fisica} />
+                            </a>
+                            <span class="text-xs text-gray-500">
+                                Física
+                            </span>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+
             <main className="bg-cyan-50">
                 <div class="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10">
                     <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white shadow-xl shadow-neutral-100 border ">

@@ -1,10 +1,13 @@
-function PerfilEstudiante() {
-    return (
-        <div>
+import { NavbarEstudiante } from "../NavbarEstudiante";
 
+
+export const Perfil = () => {
+    return(
+        <div>
+            <NavbarEstudiante></NavbarEstudiante>
 
             <div class="p-16">
-                <div class="p-8 bg-white shadow mt-24">
+                <div class="p-8 bg-white shadow mt-24 ">
                     <div class="grid grid-cols-1 md:grid-cols-3">
                         <div class="grid grid-cols-3 text-center order-last md:order-first mt-20 md:mt-0">
                             <div>
@@ -62,8 +65,7 @@ function PerfilEstudiante() {
                 </div>
             </div>
         </div>
-    )
+    );
+};
 
-}
 
-export default PerfilEstudiante;
