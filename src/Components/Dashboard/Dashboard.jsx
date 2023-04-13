@@ -23,76 +23,171 @@ export const Dashboard = () => {
                         </p>
 
                         <div class="flex flex-col">
-                    <h2 class="mb-4 text-2xl font-bold"></h2>
+                            <h2 class="mb-4 text-2xl font-bold"></h2>
 
-                    <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                        <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-full border border-blue-100 bg-blue-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                                </svg>
+                            <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                                <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-full border border-blue-100 bg-blue-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                                        </svg>
 
-                            </div>
+                                    </div>
 
-                            <div class="ml-4">
-                                <h2 class="font-semibold">Más de # usuarios activos</h2>
-                                <p class="mt-2 text-sm text-gray-500">Los ultimos días</p>
-                            </div>
-                        </div>
+                                    <div class="ml-4">
+                                        <h2 class="font-semibold">Más de # usuarios activos</h2>
+                                        <p class="mt-2 text-sm text-gray-500">Los ultimos días</p>
+                                    </div>
+                                </div>
 
-                        <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-full border border-orange-100 bg-orange-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-                                </svg>
+                                <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-full border border-orange-100 bg-orange-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                                        </svg>
 
-                            </div>
+                                    </div>
 
-                            <div class="ml-4">
-                                <h2 class="font-semibold">Cada vez más centros escolares</h2>
-                                <p class="mt-2 text-sm text-gray-500">Han ingresado a nuestra app</p>
-                            </div>
-                        </div>
+                                    <div class="ml-4">
+                                        <h2 class="font-semibold">Cada vez más centros escolares</h2>
+                                        <p class="mt-2 text-sm text-gray-500">Han ingresado a nuestra app</p>
+                                    </div>
+                                </div>
 
-                        <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-full border border-red-100 bg-red-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                                </svg>
-                            </div>
+                                <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-full border border-red-100 bg-red-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                        </svg>
+                                    </div>
 
-                            <div class="ml-4">
-                                <h2 class="font-semibold">Más de # quizes</h2>
-                                <p class="mt-2 text-sm text-gray-500">Actualizados para el refuerzo.</p>
-                            </div>
-                        </div>
+                                    <div class="ml-4">
+                                        <h2 class="font-semibold">Más de # quizes</h2>
+                                        <p class="mt-2 text-sm text-gray-500">Actualizados para el refuerzo.</p>
+                                    </div>
+                                </div>
 
-                        <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-full border border-indigo-100 bg-indigo-50">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                                </svg>
-                            </div>
+                                <div class="flex items-start rounded-xl bg-white p-4 shadow-lg">
+                                    <div class="flex h-12 w-12 items-center justify-center rounded-full border border-indigo-100 bg-indigo-50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                                        </svg>
+                                    </div>
 
-                            <div class="ml-4">
-                                <h2 class="font-semibold">99 reseñas positivas</h2>
-                                <p class="mt-2 text-sm text-gray-500">Gracias por hacer uso de nuestra app</p>
+                                    <div class="ml-4">
+                                        <h2 class="font-semibold">99 reseñas positivas</h2>
+                                        <p class="mt-2 text-sm text-gray-500">Gracias por hacer uso de nuestra app</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                    </div>
-                </div>
 
-               
+
             </header>
 
-            <aside>
-                <div class="bg-white shadow mt-6  rounded-lg p-6">
-                    <h3 class="text-gray-600 text-sm font-semibold mb-4">Materias inscritas</h3>
-                    <ul class="flex items-center justify-center space-x-2">
+            <main className="bg-cyan-50">
+                <div class="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10">
+                    <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white shadow-xl shadow-neutral-100 border ">
 
-                        <li class="flex flex-col items-center space-y-2 m-5">
+
+                        <div
+                            class="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-red-500 text-white shadow-lg shadow-red-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Most Experienced Team</p>
+                            <p class="mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
+                                set of people.</p>
+                        </div>
+
+                        <div
+                            class="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-orange-500 text-white shadow-lg shadow-orange-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Best
+                                Test preparation</p>
+                            <p class="mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p>
+                        </div>
+
+                        <div class="p-10 flex flex-col items-center text-center group   md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-yellow-500 text-white shadow-lg shadow-yellow-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Admission process Guidance</p>
+                            <p class="mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
+                                top institutions worldwide.</p>
+                        </div>
+
+
+                        <div class="p-10 flex flex-col items-center text-center group   md:lg:xl:border-r hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-lime-500 text-white shadow-lg shadow-lime-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Best
+                                Track Record</p>
+                            <p class="mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p>
+                        </div>
+
+                        <div class="p-10 flex flex-col items-center text-center group    md:lg:xl:border-r hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-teal-500 text-white shadow-lg shadow-teal-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Free
+                                Mock Exams</p>
+                            <p class="mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
+                                preparation.</p>
+                        </div>
+
+                        <div class="p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">
+                            <span class="p-5 rounded-full bg-indigo-500 text-white shadow-lg shadow-indigo-200"><svg
+                                xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg></span>
+                            <p class="text-xl font-medium text-slate-700 mt-3">Genuine
+                                Visa Advice</p>
+                            <p class="mt-2 text-sm text-slate-500">Visa process by helping you create the necessary documentation
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </main>
+            
+
+
+
+            <div class="col-span-12 rounded-lg border border-gray-400 bg-gray-200 sm:col-span-4">
+                <div class="bg-white shadow mt-6  rounded-lg ">
+                    <h3 class="text-gray-600 text-sm font-semibold mb-4">Materias inscritas</h3>
+                    <ul class="flex items-center justify-left space-x-2">
+
+                        <li class="flex flex-col items-center space-y-2 m-5 aling-left">
                             <a class="block bg-white p-1 rounded-full" href="#">
                                 <img class="w-16 rounded-full" src={ciencia} />
                             </a>
@@ -129,11 +224,13 @@ export const Dashboard = () => {
                     </ul>
                 </div>
 
-            </aside>
+            </div>
 
-            <aside>
 
-            </aside>
+            <article>
+
+
+            </article>
 
             <div>
                 <section class="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
