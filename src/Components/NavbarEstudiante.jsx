@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import menu from "../images/iconos/menu.png"
-import logo from "../images/Logo.png"
-
+import menu from "../images/iconos/menu.png";
+import logo from "../images/Logo.png";
 
 export const NavbarEstudiante = () => {
   return (
@@ -21,7 +20,20 @@ export const NavbarEstudiante = () => {
                 <Link to="/">Inicio</Link>
               </li>
               <li>
-                <Link to="/">Cuestionario</Link>
+                <div class="dropdown">
+                  <button class="dropbtn">
+                    Cuestionarios
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <Link to="/dashboard">Séptimo</Link>
+                    <Link to="/dashboard">Óctavo</Link>
+                    <Link to="/dashboard">Noveno</Link>
+                    <Link to="/Materia">Primer año</Link>
+                    <Link to="/Materia">Segundo año</Link>
+                    
+                  </div>
+                </div>
               </li>
               <li>
                 <Link to="/">Perfil</Link>
