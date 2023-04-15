@@ -17,7 +17,7 @@ export const NavbarEstudiante = () => {
           <div className="menu justify-between">
             <ul>
               <li>
-                <Link to="/">Inicio</Link>
+                <Link to="/dashboard">Inicio</Link>
               </li>
               <li>
                 <div class="dropdown">
@@ -36,13 +36,13 @@ export const NavbarEstudiante = () => {
                 </div>
               </li>
               <li>
-                <Link to="/">Perfil</Link>
+                <Link to="/dashboard">Perfil</Link>
               </li>
               <li>
-                <Link to="/">Reseñas</Link>
+                <Link to="/dashboard">Reseñas</Link>
               </li>
               <li>
-                <Link to="/">Salir</Link>
+                <Link to="/dashboard">Salir</Link>
               </li>
             </ul>
           </div>
