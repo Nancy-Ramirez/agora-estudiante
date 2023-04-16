@@ -7,7 +7,7 @@ body {
   background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff;
 }
 
-h1 {
+.materias h1 {
   color: #000;
   text-align: center;
   margin: 0 0 5% 0;
@@ -16,7 +16,7 @@ h1 {
   font-family: 'Rammetto One', cursive;
 }
 
-.cardBox {
+.materias .cardBox {
   float: left;
   font-size: 1.2em;
   margin: 1% 0 0 1%;
@@ -157,4 +157,30 @@ h1 {
   h1{
     font-size: 25px;
   }
+}
+
+/*Unidades*/
+
+.unidades .unidadB{
+  background: none;
+}
+
+.unidades h1, .unidades h2{
+  color: #000;
+  text-align: center;
+  margin: 0 0 5% 0;
+  margin: 0 0 5% 0;
+  font-family: 'Rammetto One', cursive;
+}
+
+.unidades .unidadCenter{
+  text-align: center;
+  justify-items: center;
+}
+
+.unidades img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.5em;
 }

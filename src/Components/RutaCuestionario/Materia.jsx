@@ -7,23 +7,23 @@ import { NavbarEstudiante } from "../NavbarEstudiante";
 
 export const Materias = () => {
   return (
-    <div >
+    <div className="materias">
       <NavbarEstudiante/>
-      <div className="pt-24 font-thin">
+      <div className="pt-24 ">
         <h1>Materias</h1>
       </div>
-    <div className="boxesContainer flex flex-wrap justify-center -my-10 ">
+    <div className="boxesContainer flex flex-wrap justify-center space-x-11 -my-10 ">
       {/*Biología */}
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/">
+          <Link to="/unidades">
             <img src={biologia}></img>
               <button className="pt-3">Biología</button>
             </Link>
           </div>
           <div className="back">
-          <Link to="/">
+          <Link to="/unidades">
           <img src={biologia}></img>
               <button className="pt-3">Biología</button>
             </Link>

@@ -26,9 +26,9 @@ export const NavbarEstudiante = () => {
                     <i class="fa fa-caret-down"></i>
                   </button>
                   <div class="dropdown-content">
-                    <Link to="/dashboard">Séptimo</Link>
-                    <Link to="/dashboard">Óctavo</Link>
-                    <Link to="/dashboard">Noveno</Link>
+                    <Link to="/unidades">Séptimo</Link>
+                    <Link to="/unidades">Óctavo</Link>
+                    <Link to="/unidades">Noveno</Link>
                     <Link to="/Materia">Primer año</Link>
                     <Link to="/Materia">Segundo año</Link>
                     
