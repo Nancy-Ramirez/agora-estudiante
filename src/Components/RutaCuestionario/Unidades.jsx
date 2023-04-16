@@ -33,7 +33,8 @@ export const Unidades = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <div className="pt-8 font-thin">
-              <h1>Biología</h1>
+              <h1>Ciencias</h1>
+              <p className="text-sm">Séptimo grado</p>
             </div>
           </div>
           <div className="unidadB flex flex-wrap m-4 -mt-10 ">
@@ -93,7 +94,7 @@ export const Unidades = () => {
                 <h2>
                   Unidad <span>4</span>
                 </h2>
-                <h3>Aprendamos a ser científicos y científicas</h3>
+                <h3>El átomo</h3>
               </Link>
             </div>
 
@@ -106,9 +107,9 @@ export const Unidades = () => {
                   className="justify-self-center"
                 ></img>
                 <h2>
-                  Unidad <span>1</span>
+                  Unidad <span>5</span>
                 </h2>
-                <h3>Aprendamos a ser científicos y científicas</h3>
+                <h3>Preparemos mezclas</h3>
               </Link>
             </div>
 
@@ -121,9 +122,9 @@ export const Unidades = () => {
                   className="justify-self-center"
                 ></img>
                 <h2>
-                  Unidad <span>1</span>
+                  Unidad <span>6</span>
                 </h2>
-                <h3>Aprendamos a ser científicos y científicas</h3>
+                <h3>La célula</h3>
               </Link>
             </div>
 
