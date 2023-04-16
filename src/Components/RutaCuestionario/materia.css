@@ -7,7 +7,7 @@ body {
   background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff;
 }
 
-.materias h1, .materias h2 {
+.materias h1 {
   color: #000;
   text-align: center;
   margin: 0 0 5% 0;
@@ -25,11 +25,11 @@ body {
   width: 23.7%;
 }
 
-.materias .cardBox:hover .card {
+.cardBox:hover .card {
   transform: rotateY(180deg);
 }
 
-.materias .card {
+.card {
   font-family: 'Rammetto One', cursive;
   background: none;
   cursor: default;
@@ -40,11 +40,12 @@ body {
   animation: giro 1s 1;
 }
 
-.materias .card p {
+.card p {
   margin-bottom: 1.8em;
 }
 
-.materias .card .back {
+.card .front,
+.card .back {
   backface-visibility: hidden;
   box-sizing: border-box;
   color: black;
@@ -57,7 +58,7 @@ body {
   width: 100%;
 }
 
-.materias .card .front strong {
+.card .front strong {
   background: #fff;
   border-radius: 100%;
   font-size: 1.5em;
@@ -65,11 +66,11 @@ body {
   padding: 0 7px 4px 6px;
 }
 
-.materias .card .back {
+.card .back {
   transform: rotateY(180deg);
 }
 
-.materias .card .back a {
+.card .back a {
   color: black;
   text-decoration: none;
   border-radius: 1px;
@@ -77,36 +78,36 @@ body {
   transition: all 0.2s ease 0s;
 }
 
-.materias .card .back a:hover {
+.card .back a:hover {
   background: #fff;
 
   text-shadow: 0 0 1px #333;
 }
 
-.materias .cardBox:nth-child(1) .card .back {
+.cardBox:nth-child(1) .card .back {
   background: none;
 }
 
-.materias .cardBox:nth-child(2) .card .back {
+.cardBox:nth-child(2) .card .back {
   background: none;
 }
 
-.materias .cardBox:nth-child(3) .card .back {
+.cardBox:nth-child(3) .card .back {
   background: none;
 }
 
 
-.materias .cardBox:nth-child(1) .card {
+.cardBox:nth-child(1) .card {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
 }
 
-.materias .cardBox:nth-child(2) .card {
+.cardBox:nth-child(2) .card {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
 }
 
-.materias .cardBox:nth-child(3) .card {
+.cardBox:nth-child(3) .card {
   -webkit-animation: giro 2.5s 1;
   animation: giro 2.5s 1;
 }
@@ -130,30 +131,30 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .materias .cardBox {
+  .cardBox {
     margin-left: 2.8%;
     margin-top: 3%;
     width: 46%;
   }
-  .materias .card {
+  .card {
     height: 285px;
   }
-  .materias .cardBox:last-child {
+  .cardBox:last-child {
     margin-bottom: 3%;
   }
-  .materias h1{
+  h1{
     font-size: 25px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .materias .cardBox {
+  .cardBox {
     width: 50.5%;
   }
-  .materias .card {
+  .card {
     height: 260px;
   }
-  .materias h1{
+  h1{
     font-size: 25px;
   }
 }

@@ -9,10 +9,10 @@ export const Materias = () => {
   return (
     <div className="materias">
       <NavbarEstudiante/>
-      <div className="pt-24 font-thin">
+      <div className="pt-24 ">
         <h1>Materias</h1>
       </div>
-    <div className="boxesContainer flex flex-wrap justify-center -my-10 ">
+    <div className="boxesContainer flex flex-wrap justify-center space-x-11 -my-10 ">
       {/*Biología */}
       <div className="cardBox">
         <div className="card">
@@ -35,13 +35,13 @@ export const Materias = () => {
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/unidades">
+          <Link to="/">
             <img src={quimica}></img>
               <button className="pt-3">Química</button>
             </Link>
           </div>
           <div className="back">
-          <Link to="/unidades">
+          <Link to="/">
             <img src={quimica}></img>
               <button className="pt-3">Química</button>
             </Link>
@@ -53,7 +53,7 @@ export const Materias = () => {
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/unidades">
+          <Link to="/">
             <img src={fisica}></img>
               <button className="pt-3">Física</button>
             </Link>

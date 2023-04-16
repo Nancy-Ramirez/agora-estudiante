@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./materia.css";
 import { NavbarEstudiante } from "../NavbarEstudiante";
-import desbloqueado from "../../images/desbloqueado.png";
-import bloqueado from "../../images/bloqueado.png";
+import desbloqueado from "../../images/desbloq.png";
+import bloqueado from "../../images/bloq.png";
 import Swal from "sweetalert2";
 
 export const Unidades = () => {
@@ -61,9 +61,9 @@ export const Unidades = () => {
                   className="justify-self-center"
                 ></img>
                 <h2>
-                  Unidad <span>1</span>
+                  Unidad <span>2</span>
                 </h2>
-                <h3>Aprendamos a ser científicos y científicas</h3>
+                <h3>Propiedades de la materia</h3>
               </Link>
             </div>
 
@@ -76,9 +76,9 @@ export const Unidades = () => {
                   className="justify-self-center"
                 ></img>
                 <h2>
-                  Unidad <span>1</span>
+                  Unidad <span>3</span>
                 </h2>
-                <h3>Aprendamos a ser científicos y científicas</h3>
+                <h3>Materia y energía</h3>
               </Link>
             </div>
 
@@ -91,7 +91,7 @@ export const Unidades = () => {
                   className="justify-self-center"
                 ></img>
                 <h2>
-                  Unidad <span>1</span>
+                  Unidad <span>4</span>
                 </h2>
                 <h3>Aprendamos a ser científicos y científicas</h3>
               </Link>
