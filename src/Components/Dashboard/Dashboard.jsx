@@ -1,4 +1,5 @@
 import { NavbarEstudiante } from "../NavbarEstudiante";
+import { Footer } from "../Footer";
 import biologia from "../Dashboard/Materias/biolo.png";
 import quimica from "../Dashboard/Materias/quimica.png";
 import ciencia from "../Dashboard/Materias/ciencia.png";
@@ -358,7 +359,7 @@ export const Dashboard = () => {
 
 
 
-
+          <Footer></Footer>
         </div>
     );
 };
