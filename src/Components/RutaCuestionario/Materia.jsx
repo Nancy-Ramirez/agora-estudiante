@@ -9,7 +9,10 @@ export const Materias = () => {
   return (
     <div >
       <NavbarEstudiante/>
-    <div className="boxesContainer flex justify-evenly pt-24">
+      <div className="pt-24 font-thin">
+        <h1>Materias</h1>
+      </div>
+    <div className="boxesContainer flex flex-wrap justify-center -my-10 ">
       {/*Biología */}
       <div className="cardBox">
         <div className="card">

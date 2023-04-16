@@ -31,7 +31,10 @@ body {
   border-radius: 0.4rem;
 }
 
-
+.estudianteMenu{
+  background-color: #023535;
+  color: white;
+}
 .wrapper nav ul {
   list-style: none;
   display: flex;

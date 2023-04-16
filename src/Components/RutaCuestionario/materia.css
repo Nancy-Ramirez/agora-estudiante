@@ -8,11 +8,12 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: #000;
   text-align: center;
   margin: 0 0 5% 0;
   padding: 0.5em;
   margin: 0 0 5% 0;
+  font-family: 'Rammetto One', cursive;
 }
 
 .cardBox {
@@ -141,13 +142,19 @@ h1 {
   .cardBox:last-child {
     margin-bottom: 3%;
   }
+  h1{
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .cardBox {
-    width: 94.5%;
+    width: 50.5%;
   }
   .card {
     height: 260px;
+  }
+  h1{
+    font-size: 25px;
   }
 }
