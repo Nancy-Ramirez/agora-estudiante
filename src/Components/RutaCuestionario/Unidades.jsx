@@ -40,7 +40,7 @@ export const Unidades = () => {
           <div className="unidadB flex flex-wrap m-4 -mt-10 ">
             {/* Unidad disponible 1*/}
             <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4">
-              <Link to="/dashboard">
+              <Link to="/temas">
                 <img
                   src={desbloqueado}
                   width={250}
