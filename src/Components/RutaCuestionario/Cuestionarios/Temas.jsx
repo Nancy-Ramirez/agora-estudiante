@@ -41,7 +41,7 @@ export const Temas = () => {
             {/* Tema 1 */}
             <div className="xl:w-1/4 md:w-1/3 w-full p-4 text-center">
               <div className=" p-6 rounded-lg">
-                <Link to="/dashboard">
+                <Link to="/preguntas">
               <img src={cuestR} alt="" width={100} />
                 <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
                   Pequeñas células

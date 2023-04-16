@@ -7,6 +7,7 @@ import { Reseñas } from "../Reseñas/Reseñas";
 import { Perfil } from "../Perfil/Perfil";
 import { Unidades } from "../RutaCuestionario/Unidades";
 import { Temas } from "../RutaCuestionario/Cuestionarios/Temas";
+import { Cuestionario } from "../RutaCuestionario/Cuestionarios/Cuestionario";
 
 export default function Router() {
   return (
@@ -23,6 +24,7 @@ export default function Router() {
         <Route path="/Materia" element={<Materias />} />
         <Route path="/unidades" element={<Unidades />} />
         <Route path="/temas" element={<Temas/>} />
+        <Route path="/preguntas" element={<Cuestionario/>}/>
 
       </Routes>
     </BrowserRouter>
