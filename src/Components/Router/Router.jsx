@@ -5,6 +5,7 @@ import { InicioGeneral } from "../Inicio/inicioGeneral";
 import { Dashboard } from "../Dashboard/Dashboard";
 import { Reseñas } from "../Reseñas/Reseñas";
 import { Perfil } from "../Perfil/Perfil";
+import { Unidades } from "../RutaCuestionario/Unidades";
 
 export default function Router() {
   return (
@@ -19,6 +20,8 @@ export default function Router() {
         <Route path="/Reseña" element={<Reseñas />} />
         <Route path="/Perfil" element={<Perfil />} />
         <Route path="/Materia" element={<Materias />} />
+        <Route path="/unidades" element={<Unidades />} />
+
       </Routes>
     </BrowserRouter>
   );

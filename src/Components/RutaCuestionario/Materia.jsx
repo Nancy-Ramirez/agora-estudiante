@@ -7,7 +7,7 @@ import { NavbarEstudiante } from "../NavbarEstudiante";
 
 export const Materias = () => {
   return (
-    <div >
+    <div className="materias">
       <NavbarEstudiante/>
       <div className="pt-24 font-thin">
         <h1>Materias</h1>
@@ -17,13 +17,13 @@ export const Materias = () => {
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/">
+          <Link to="/unidades">
             <img src={biologia}></img>
               <button className="pt-3">Biología</button>
             </Link>
           </div>
           <div className="back">
-          <Link to="/">
+          <Link to="/unidades">
           <img src={biologia}></img>
               <button className="pt-3">Biología</button>
             </Link>
@@ -35,13 +35,13 @@ export const Materias = () => {
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/">
+          <Link to="/unidades">
             <img src={quimica}></img>
               <button className="pt-3">Química</button>
             </Link>
           </div>
           <div className="back">
-          <Link to="/">
+          <Link to="/unidades">
             <img src={quimica}></img>
               <button className="pt-3">Química</button>
             </Link>
@@ -53,7 +53,7 @@ export const Materias = () => {
       <div className="cardBox">
         <div className="card">
           <div className="front">
-          <Link to="/">
+          <Link to="/unidades">
             <img src={fisica}></img>
               <button className="pt-3">Física</button>
             </Link>
