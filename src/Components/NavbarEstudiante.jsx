@@ -36,10 +36,10 @@ export const NavbarEstudiante = () => {
                 </div>
               </li>
               <li>
-                <Link to="/dashboard">Perfil</Link>
+                <Link to="/Perfil">Perfil</Link>
               </li>
               <li>
-                <Link to="/dashboard">Reseñas</Link>
+                <Link to="/Reseña">Reseñas</Link>
               </li>
               <li>
                 <Link to="/dashboard">Salir</Link>
