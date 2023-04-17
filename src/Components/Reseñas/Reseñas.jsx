@@ -7,13 +7,13 @@ export const Reseñas = () => {
 
   return (
 
-    <div style={{ backgroundImage: `url(${bg})` }}>
+    <div style={{ backgroundColor: `white` }}>
       <NavbarEstudiante></NavbarEstudiante>
 
 
       <section className="my-8 dark:text-gray-100 mt-20">
         <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
-        <a href="#" class="font-display max-w-sm text-4xl font-bold leading-tight">
+        <a href="#" class="font-display max-w-sm text-4xl font-bold leading-tight text-center">
               <span class="link link-underline link-underline-black text-black"> Lo que nuestros estudiantes dicen </span>
             </a>
         </div>
