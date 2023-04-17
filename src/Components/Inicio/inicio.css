@@ -172,7 +172,6 @@ body {
 
   .containerAbout {
   padding-top: 35px;
-  height: 100vh;
   margin-bottom: -300px;
 }
 
@@ -186,7 +185,6 @@ body {
 }
 
  .containerAbout  .wrapperAbout {
-  min-height: 100%;
   place-items: center;
 }
 

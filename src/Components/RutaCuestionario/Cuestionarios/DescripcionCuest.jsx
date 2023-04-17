@@ -7,8 +7,8 @@ export const Descripcioncuest = () => {
   return (
     <main>
       <NavbarEstudiante />
-      <section className="relative overflow-x-auto  sm:rounded-lg p-12 pt-48 flex justify-center">
-        <div className="flex justify-between p-12 text-center  text-black w-full">
+      <section className="relative overflow-x-auto px-12 sm:px-0 md:px-4 lg:px-8 pt-24 flex justify-center">
+        <div className="flex justify-between pt-12 text-center  text-black w-full">
           <Link to="/temas" className="flex justify-start">
             <Icon icon="lucide:arrow-big-left" width="35" height="35" />
           </Link>
@@ -19,7 +19,7 @@ export const Descripcioncuest = () => {
             </p>
             <div className="px-20 text-black">
               <div className="flex justify-start p-4">
-                <p className="leading-normal pt-8 text-xl md:text-md">
+                <p className="leading-normal pt-8 text-sm sm:text-md md:text-xl lg:text-xl">
                   Si la ciencia es una actividad que produce resultados que son
                   aprovechados por las sociedades, de igual forma la tecnología
                   permite la creación de aparatos que contribuyen a satisfacer

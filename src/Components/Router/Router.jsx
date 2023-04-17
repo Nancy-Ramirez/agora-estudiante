@@ -9,6 +9,8 @@ import { Unidades } from "../RutaCuestionario/Unidades";
 import { Temas } from "../RutaCuestionario/Cuestionarios/Temas";
 import { Cuestionario } from "../RutaCuestionario/Cuestionarios/Cuestionario";
 import { Descripcioncuest } from "../RutaCuestionario/Cuestionarios/DescripcionCuest";
+import { Login } from "../Login/Login";
+import { Nosotros } from "../Inicio/Nosotros";
 
 export default function Router() {
   return (
@@ -16,7 +18,8 @@ export default function Router() {
       <Routes>
         {/*General */}
         <Route path="/" element={<InicioGeneral />} />
-        
+        <Route path="/sobre-nosotros" element={<Nosotros />} />
+        <Route path="/login" element={<Login />} />
 
         {/*Estudiante */}
         <Route path="/Dashboard" element={<Dashboard />} />
@@ -24,10 +27,9 @@ export default function Router() {
         <Route path="/Perfil" element={<Profile />} />
         <Route path="/Materia" element={<Materias />} />
         <Route path="/unidades" element={<Unidades />} />
-        <Route path="/temas" element={<Temas/>} />
-        <Route path="/cuestionario" element={<Descripcioncuest/>} />
-        <Route path="/preguntas" element={<Cuestionario/>}/>
-
+        <Route path="/temas" element={<Temas />} />
+        <Route path="/cuestionario" element={<Descripcioncuest />} />
+        <Route path="/preguntas" element={<Cuestionario />} />
       </Routes>
     </BrowserRouter>
   );
