@@ -8,10 +8,10 @@ export const NavbarGeneral = () => {
       <div className="wrapper flex justify-evenly font-bold">
         <nav>
           <a href="/inicio" className="logo pr-32">
-            <img src={logo} width="45px" alt="" />
+            <img src={logo} width="60px" alt="" />
           </a>
           <input type="checkbox" className="" id="toogle" />
-          <label htmlFor="toogle">
+          <label htmlFor="toogle text-white">
             <img src={menu} width="25px" alt="" />
           </label>
           <div className="menu justify-between">
