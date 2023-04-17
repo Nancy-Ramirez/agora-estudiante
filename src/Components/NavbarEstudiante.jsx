@@ -42,7 +42,7 @@ export const NavbarEstudiante = () => {
                 <Link to="/Reseña">Reseñas</Link>
               </li>
               <li>
-                <Link to="/dashboard">Salir</Link>
+                <Link to="/">Salir</Link>
               </li>
             </ul>
           </div>
