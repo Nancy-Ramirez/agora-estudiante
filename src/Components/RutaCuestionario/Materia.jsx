@@ -18,13 +18,13 @@ export const Materias = () => {
           <div className="card">
             <div className="front">
               <Link to="/unidades">
-                <img src={biologia} alt=""></img>
+                <img src={biologia} alt="" width={250}></img>
                 <button className="pt-3">Biología</button>
               </Link>
             </div>
             <div className="back">
               <Link to="/unidades">
-                <img src={biologia} alt=""></img>
+                <img src={biologia} alt="" width={250}></img>
                 <button className="pt-3">Biología</button>
               </Link>
             </div>
@@ -35,13 +35,13 @@ export const Materias = () => {
           <div className="card">
             <div className="front">
               <Link to="/unidades">
-                <img src={quimica} alt=""></img>
+                <img src={quimica} alt="" width={250}></img>
                 <button className="pt-3">Química</button>
               </Link>
             </div>
             <div className="back">
               <Link to="/unidades">
-                <img src={quimica} alt=""></img>
+                <img src={quimica} alt="" width={250}></img>
                 <button className="pt-3">Química</button>
               </Link>
             </div>
@@ -52,13 +52,13 @@ export const Materias = () => {
           <div className="card">
             <div className="front">
               <Link to="/unidades">
-                <img src={fisica} alt=""></img>
+                <img src={fisica} alt="" width={250}></img>
                 <button className="pt-3">Física</button>
               </Link>
             </div>
             <div className="back">
               <Link to="/unidades">
-                <img src={fisica} alt=""></img>
+                <img src={fisica} alt="" width={250}></img>
                 <button className="pt-3">Física</button>
               </Link>
             </div>
