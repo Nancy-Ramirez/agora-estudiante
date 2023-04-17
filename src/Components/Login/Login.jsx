@@ -206,8 +206,8 @@ export const Login = () => {
     <main>
       <NavbarGeneral />
       {/*Login */}
-      <section id="Nosotros" class="text-gray-600 body-font">
-        <div class="container px-5 pt-12 mx-auto flex flex-wrap">
+      <section className="text-gray-600 body-font flex justify-center">
+        <div class="px-5 pt-12 flex flex-wrap">
           <div class="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
             <img alt="feature" class="" src={imagenLogin} />
           </div>
@@ -215,7 +215,7 @@ export const Login = () => {
             <div class="flex flex-col lg:items-start items-center">
               <div class="flex-grow">
                 {/*Formulario ingresar */}
-                <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                <div className="w-full w:1/2 bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                   <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white text-center">
                       ¡Bienvenido de vuelta!
