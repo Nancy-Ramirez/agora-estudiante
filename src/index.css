@@ -50,7 +50,7 @@ nav label {
   display: none;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 45em) {
   .wrapper nav .menu {
     width: 100%;
     height: 0;

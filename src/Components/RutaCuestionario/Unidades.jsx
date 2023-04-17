@@ -45,6 +45,7 @@ export const Unidades = () => {
                   src={desbloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>1</span>
@@ -54,12 +55,16 @@ export const Unidades = () => {
             </div>
 
             {/* Unidad no disponible 2*/}
-            <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4" onClick={funcionBloqued}>
+            <div
+              className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4"
+              onClick={funcionBloqued}
+            >
               <Link>
                 <img
                   src={bloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>2</span>
@@ -69,12 +74,16 @@ export const Unidades = () => {
             </div>
 
             {/* Unidad no disponible 3*/}
-            <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4" onClick={funcionBloqued}>
+            <div
+              className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4"
+              onClick={funcionBloqued}
+            >
               <Link>
                 <img
                   src={bloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>3</span>
@@ -84,12 +93,16 @@ export const Unidades = () => {
             </div>
 
             {/* Unidad no disponible 4*/}
-            <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4" onClick={funcionBloqued}>
+            <div
+              className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4"
+              onClick={funcionBloqued}
+            >
               <Link>
                 <img
                   src={bloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>4</span>
@@ -99,12 +112,16 @@ export const Unidades = () => {
             </div>
 
             {/* Unidad no disponible 5*/}
-            <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4" onClick={funcionBloqued}>
+            <div
+              className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4"
+              onClick={funcionBloqued}
+            >
               <Link>
                 <img
                   src={bloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>5</span>
@@ -114,12 +131,16 @@ export const Unidades = () => {
             </div>
 
             {/* Unidad no disponible 6*/}
-            <div className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4" onClick={funcionBloqued}>
+            <div
+              className="unidadCenter xl:w-1/3 md:w-1/2 w-full p-4"
+              onClick={funcionBloqued}
+            >
               <Link>
                 <img
                   src={bloqueado}
                   width={250}
                   className="justify-self-center"
+                  alt=""
                 ></img>
                 <h2>
                   Unidad <span>6</span>
@@ -127,7 +148,6 @@ export const Unidades = () => {
                 <h3>La célula</h3>
               </Link>
             </div>
-
           </div>
         </div>
       </section>
