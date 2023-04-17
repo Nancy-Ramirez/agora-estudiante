@@ -8,7 +8,7 @@ export const NavbarEstudiante = () => {
       <div className="wrapper estudianteMenu justify-between">
         <nav>
           <a href="/inicio" className="logo">
-            <img src={logo} width="60px" alt="" />
+            <img src={logo} width="45px" alt="" />
           </a>
           <input type="checkbox" className="" id="toogle" />
           <label htmlFor="toogle">

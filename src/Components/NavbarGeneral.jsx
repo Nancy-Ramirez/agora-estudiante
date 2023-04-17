@@ -8,7 +8,7 @@ export const NavbarGeneral = () => {
       <div className="wrapper flex justify-evenly font-bold">
         <nav>
           <a href="/inicio" className="logo pr-32">
-            <img src={logo} width="60px" alt="" />
+            <img src={logo} width="45px" alt="" />
           </a>
           <input type="checkbox" className="" id="toogle" />
           <label htmlFor="toogle">

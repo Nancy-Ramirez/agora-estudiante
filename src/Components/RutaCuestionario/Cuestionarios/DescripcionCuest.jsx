@@ -7,7 +7,7 @@ export const Descripcioncuest = () => {
   return (
     <main>
       <NavbarEstudiante />
-      <section className="relative overflow-x-auto px-12 sm:px-0 md:px-4 lg:px-8 pt-24 flex justify-center">
+      <section className="relative overflow-x-auto px-24 pt-24 flex justify-center">
         <div className="flex justify-between pt-12 text-center  text-black w-full">
           <Link to="/temas" className="flex justify-start">
             <Icon icon="lucide:arrow-big-left" width="35" height="35" />
