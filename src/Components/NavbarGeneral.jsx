@@ -26,7 +26,7 @@ export const NavbarGeneral = () => {
                 <a href="#Servicios">Servicio</a>
               </li>
               <li className="pl-8 flex wrapped">
-                <a href="/">Ingresar</a>
+                <a href="/dashboard">Ingresar</a>
               </li>
             </ul>
           </div>

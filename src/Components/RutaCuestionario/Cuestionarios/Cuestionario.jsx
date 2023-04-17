@@ -70,7 +70,7 @@ export const Cuestionario = () => {
   return (
     <main>
       <NavbarEstudiante />
-      <section className=" relative overflow-x-auto shadow-md sm:rounded-lg p-12 pt-21">
+      <section className=" relative overflow-x-auto  sm:rounded-lg p-12 pt-21">
         <div className="flex justify-start p-12 text-center  text-white w-full">
           <Link
             to="/cuestionario/ver-cuestionario"
