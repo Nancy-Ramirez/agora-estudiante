@@ -10,12 +10,6 @@ export const Dashboard = () => {
         <div>
             <NavbarEstudiante></NavbarEstudiante>
 
-            <div x-data="{'openDialogId': ''}" class='font-body antialiased h-full font-body mt-20 antialiased text-[#000000] bg-[#f1f4f3] dark:text-[#ffffff] dark:bg-[#031022] '>
- 
-  
-
-
-</div>
             <header aria-label="Page Header" class="bg-cyan-50 mt-20">
                 <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 bg--100">
 
@@ -90,28 +84,6 @@ export const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-
-                <div class=" bg-gray-200">
-    <div class="w-[350px] fixed text-center px-3 py-16 max-w-7xl mx-auto">
-      <h1 class="w-[350px] font-black tracking-tight text-slate-900 text-3xl dark:text-slate-100 sm:text-4xl">Materias Inscritas</h1>
-      <div class="m-[5px] p-[5px] space-x-[5px] w-[350px] grid gap-2 mt-12 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div class="w-[65px] text-center"><img class="m-[5px] p-[5px] rounded-full w-60 mx-auto mb-4 bg-blue-100" alt="No alt" src="https://images.pexels.com/photos/9968247/pexels-photo-9968247.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" />
-          <p class="">Ciencias</p>
-        </div>
-        <div class="w-[65px] text-center"><img class="rounded-full w-60 mx-auto mb-4 bg-blue-100" alt="No alt" src="https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" />
-          <p class="">Física</p>
-        </div>
-        <div class="w-[65px] text-center"><img class="m-[5px] p-[5px] space-x-[5px] rounded-full w-60 mx-auto mb-4 bg-blue-100 xl:w-[65px]" alt="No alt" src="https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" />
-          <p class="">Química</p>
-        </div>
-        <div class="w-[65px] text-center"><img class="rounded-full w-60 mx-auto mb-4 bg-blue-100" alt="No alt" src="https://images.pexels.com/photos/966067/pexels-photo-966067.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" />
-          <p class="">Biología</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
             </header>
 
             <div class="px-4 pt-6 ">
@@ -134,6 +106,32 @@ export const Dashboard = () => {
                             </div>
                         </div>
                         <div id="main-chart"></div>
+                       
+                    </div>
+
+                    <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-cyan-800">
+                        <div class="w-full">
+                            <h3 class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Unidades completadas</h3>
+                            <div class="flex items-center mb-2">
+                                <div class="w-16 text-sm font-medium dark:text-white">Unidad 1</div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                    <div class="bg-primary-600 h-2.5 rounded-full dark:bg-primary-500" style={{ width: `18%` }}></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <div class="w-16 text-sm font-medium dark:text-white">Unidad 2</div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                    <div class="bg-primary-600 h-2.5 rounded-full dark:bg-primary-500" style={{ width: `15%` }}></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <div class="w-16 text-sm font-medium dark:text-white">Unidad 3</div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                    <div class="bg-primary-600 h-2.5 rounded-full dark:bg-primary-500" style={{ width: `60%` }}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="traffic-channels-chart" class="w-full"></div>
                     </div>
                 
                 </div>
