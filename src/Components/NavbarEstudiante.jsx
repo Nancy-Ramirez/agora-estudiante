@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
 import menu from "../images/iconos/menu.png";
 import logo from "../images/Logo.png";
+import materia from "../Components/jsDePruebas/grados";
 
 export const NavbarEstudiante = () => {
+
+  function handleMateriaSession(){
+
+  }
+
   return (
     <div className="opacity-2 border-gray-200 mx-auto fixed w-full flex-wrap z-20 top-0">
       <div className="wrapper estudianteMenu justify-between">
@@ -26,7 +32,7 @@ export const NavbarEstudiante = () => {
                     <i class="fa fa-caret-down"></i>
                   </button>
                   <div class="dropdown-content">
-                    <Link to="/unidades">Séptimo</Link>
+                    <Link to="/unidades/">Séptimo</Link>
                     <Link to="/unidades">Óctavo</Link>
                     <Link to="/unidades">Noveno</Link>
                     <Link to="/Materia">Primer año</Link>

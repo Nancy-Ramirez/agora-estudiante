@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./materia.css";
+import "../../Components/RutaCuestionario/Cuestionarios/Materias/materia.css";
 import { NavbarEstudiante } from "../NavbarEstudiante";
 import desbloqueado from "../../images/desbloq.png";
 import bloqueado from "../../images/bloq.png";

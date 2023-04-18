@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Materias } from "../RutaCuestionario/Materia";
 import { InicioGeneral } from "../Inicio/inicioGeneral";
 
 import { Dashboard } from "../Dashboard/Dashboard";
@@ -11,13 +10,14 @@ import { Cuestionario } from "../RutaCuestionario/Cuestionarios/Cuestionario";
 import { Descripcioncuest } from "../RutaCuestionario/Cuestionarios/DescripcionCuest";
 import { Login } from "../Login/Login";
 import { Nosotros } from "../Inicio/Nosotros";
+import { Materias } from "../RutaCuestionario/Cuestionarios/Materias/Materia";
 
 export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
         {/*General */}
-        <Route path="/" element={<InicioGeneral />} />
+        <Route index element={<InicioGeneral />} />
         <Route path="/sobre-nosotros" element={<Nosotros />} />
         <Route path="/login" element={<Login />} />
 

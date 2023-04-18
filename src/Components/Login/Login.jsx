@@ -206,18 +206,18 @@ export const Login = () => {
     <main>
       <NavbarGeneral />
       {/*Login */}
-      <section className="text-gray-600 body-font flex justify-center">
+      <section className="text-black body-font flex justify-center">
         <div class="px-5 pt-12 flex flex-wrap">
-          <div class="w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
+          <div class="w-1/2 lg:mb-0 rounded-lg overflow-hidden pt-5">
             <img alt="feature" class="" src={imagenLogin} />
           </div>
           <div class=" w-1/2 flex justify-center pt-24 -mb-10  text-center">
             <div class="flex flex-col lg:items-start items-center">
               <div class="flex-grow">
                 {/*Formulario ingresar */}
-                <div className=" bg-white px-12 rounded-lg shadow dark:border dark:bg-gray-800 dark:border-gray-700">
+                <div className=" bg-white px-12 rounded-lg shadow pt-5 ">
                   <div className="p-6 space-y-4 md:space-y-6">
-                    <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white text-center">
+                    <h1 className="text-xl font-bold leading-tight tracking-tight md:text-2xltext-center">
                       ¡Bienvenido de vuelta!
                     </h1>
                     <form
@@ -227,14 +227,14 @@ export const Login = () => {
                       <div>
                         <label
                           htmlFor="email"
-                          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                          className="block mb-2 text-sm font-medium text-gray-900"
                         >
                           Correo electrónico
                         </label>
                         <input
                           type="email"
                           name="email"
-                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 0"
                           placeholder="nombre@xxxxx.com"
                           value={formulario.email}
                           onChange={ManejarEventoDeInputs}
@@ -264,7 +264,7 @@ export const Login = () => {
                           type="password"
                           name="password"
                           placeholder="••••••••"
-                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
                           value={formulario.password}
                           onChange={ManejarEventoDeInputs}
                         />

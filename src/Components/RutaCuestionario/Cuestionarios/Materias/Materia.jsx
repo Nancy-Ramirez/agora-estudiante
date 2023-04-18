@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import "./materia.css"
-import biologia from "../../images/Biologia.png"
-import quimica from "../../images/Quimica.png"
-import fisica from "../../images/Fisica.png"
-import { NavbarEstudiante } from "../NavbarEstudiante";
+import "../Materias/materia.css"
+import biologia from "../../../../images/Biologia.png"
+import quimica from "../../../../images/Quimica.png"
+import fisica from "../../../../images/Fisica.png"
+import { NavbarEstudiante } from "../../../NavbarEstudiante";
 
 export const Materias = () => {
   return (
