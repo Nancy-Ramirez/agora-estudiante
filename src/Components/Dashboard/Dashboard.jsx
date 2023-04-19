@@ -92,7 +92,7 @@ export const Dashboard = () => {
                     {/*-- Main widget --*/}
                     <div class="p-4 bg-white border border-cyan-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-cyan-700 sm:p-6 dark:bg-cyan-800">
                         <div class="w-full">
-                            <h3 class="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">Unidades completadas</h3>
+                            <h3 class="mb-2 text-base font-normal text-gray-50 dark:text-gray-50">Unidades completadas</h3>
                             <div class="flex items-center mb-2">
                                 <div class="w-16 text-sm font-medium dark:text-white">Unidad 1</div>
                                 <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
