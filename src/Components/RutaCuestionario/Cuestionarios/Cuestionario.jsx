@@ -86,7 +86,7 @@ export const Cuestionario = () => {
             <Icon icon="lucide:arrow-big-left" width="35" height="35" />
           </Link>
         </div>
-        <div className=" bg-opacity-25 mt-9 mx-48 ">
+        <div className=" bg-opacity-25 mt-9 mx-5 xl:mx-48 lg:mx-32 md:mx-24 xs:mx-5 ">
           <div className="py-4 text-center text-white bg-teal-700 rounded-md">
             <h1 className="">Pequeñas Células</h1>
             <p className="text-sm">Unidad 1: Ciencia y Tecnología</p>
