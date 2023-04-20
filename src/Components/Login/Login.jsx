@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import Cookies from "universal-cookie";
 
 export const Login = () => {
   const Navigate = useNavigate();
+  const cookies = new Cookies();
 
   //Valores validos para el correo
   const isValidEmail =
@@ -70,6 +72,17 @@ export const Login = () => {
     //!Validacion para enviar los datos al servidor
     if (totalValidaciones.length >= 2) {
       console.log("Enviar al servidor");
+
+      const tokenApp = "fs654+6df45sd0fs6f54";
+      const typeUser = 3;
+      cookies.set(
+        "tokenSessionApp",
+        {
+          token: tokenApp,
+          type: typeUser,
+        },
+        { path: "/" }
+      );
 
       //ALERT TO NAVIGATE
       const Toast = Swal.mixin({

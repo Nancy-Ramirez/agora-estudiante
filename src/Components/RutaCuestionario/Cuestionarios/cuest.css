@@ -46,15 +46,15 @@ justify-self: center;
 .app .btnRespuesta {
   width: 100%;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #1c3131;
+  color: #000000;
+  background-color: #cbddddf6;
   border-radius: 15px;
   display: flex;
   margin-top: 10px;
   padding: 10px;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid #023535;
+  border: 1px solid #4c6e6e;
   cursor: pointer;
 }
 
@@ -62,11 +62,13 @@ justify-self: center;
 .correct,
 .correct:hover {
   background-color: #133b13;
+  color:white;
 }
 
 .incorrect,
 .incorrect:hover {
   background-color: #811d1d;
+  color:white;
 }
 
 .app .buttonPuntos{
